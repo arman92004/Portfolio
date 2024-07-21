@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_80jy3p8",
+        "template_dwirx1x",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "ScNAD6_ZK6p4movTE"
       )
       .then(
         (result) => {
@@ -63,13 +63,13 @@ const Contact = () => {
         <motion.div className="item" variants={variants}>
           <h2>Let's Connect on</h2>
           <div className="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/md-arman-mansoori-22b40a260">
             <img src="/in.png" alt="" />
           </a>
           <a href="#">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://github.com/arman92004/">
             <img src="/github.png" alt="" />
           </a>
         </div>
